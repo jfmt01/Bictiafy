@@ -1,0 +1,58 @@
+@media only screen and (max-width: 720px) {
+    .contenedor .header {
+        height: 1fr;
+    }
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas: "header      header       header"
+                         "espacio     espacio      espacio"
+                         "contenido   contenido    menu"
+                         "contenido   contenido    menu"
+                         "footer      footer      footer"
+}
+
+.contenido {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
+
+.contenedor > div {
+    padding: 50px;
+}
+.contenedor .header {
+    background: url(../img/fondini.png);
+    grid-area: header;
+    height: 1000px;
+    max-height: 1000px;
+    min-height: 100px;
+/*     background-size: cover; */
+    background-attachment: fixed;
+}
+.contenedor .contenido {
+    background: 
+    #924BB3;
+    grid-area: contenido;
+}
+.contenedor .menu {
+    background: url(../img/hola2.png);
+    grid-area: menu;
+    background-repeat: no-repeat;
+    background-position-y: 150px;
+
+}
+.contenedor .espacio {
+    background: #000;
+    grid-area: espacio;
+    background-repeat: no-repeat;
+}
+.contenedor .footer {
+    background: url(../img/fondini.png);
+    grid-area: footer;
+    background-attachment: fixed;
+    height: 250px;
+}
+

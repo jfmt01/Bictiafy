@@ -1,0 +1,98 @@
+body{
+    background-image: url(imagenes/fon.png);
+    background-size: cover;
+    font-family: cursive;
+    font-size: 7;
+    
+}
+form{
+    text-align: center
+}
+/* label{
+    color: black;
+    
+   border-radius: 5px;
+} */
+button{
+    border-radius: 10px;
+}
+.rad{
+    font-size: 1.5rem;
+    align-content: center;
+    color: aliceblue
+}
+.log{
+    text-align: center
+}
+.tabla1 {
+    padding: 15px;
+    padding-left: 50px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+    font-family: cursive
+}
+.letra{
+    font-family: cursive;
+    font-size: 50;
+    color: aliceblue
+}
+.col{
+    font-family: cursive;
+    font-size: 30;
+    background-color: aliceblue;
+    color: aliceblue
+}
+.btn{
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.918);
+    color: black;
+    border-style: rgba(29, 27, 28, 0.849);
+    width: 6px;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+h4{
+    color: aliceblue
+}
+#reg{
+    background-color: #56d078;
+    color: aliceblue;
+    font-family: cursive;
+    border-style:  rgba(29, 27, 28, 0.849);
+    font-size: 20px;
+    }
+    #reg:hover{
+        background:  #56d07985;
+    }
+    .btn:hover{
+        transform: scale(1.1);
+        background: #aedfbc85;
+        }
+
+    .price {
+        border-radius: 20px;
+        width: 100%
+    }
+
+    #imgp{
+        border-radius: 20px;
+        width: 100%;
+    }
+
+    .prem {
+        border-radius: 20px;
+        width: 100%
+    }
+
+    #iprem{
+        border-radius: 20px;
+        width: 100%;
+    }
+
+ {
+     width: 100%;
+     border-radius: 20px;
+     background-image:url(imagenes/Purplehaze.png) 
+ }
